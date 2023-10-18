@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Highlighter Extension",
+    "version": "1.0",
+    "description": "A Chrome extension to highlight web pages.",
+    "permissions": ["activeTab", "scripting"],
+    "icons": {
+        "16": "images/highlighter(3).jpg",
+        "48": "images/highlighter(2).jpg",
+        "96":"images/highlighter(4).jpg",
+        "128":"images/highlighter(1).jpg"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "96":"images/highlighter(4).jpg"
+      }
+    }
+  }
+  
